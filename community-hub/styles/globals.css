@@ -13,3 +13,13 @@
     /* margin-top: 10rem; */
     /* background-position: ; */
 }
+
+
+
+.border
+{
+    width: 10rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
