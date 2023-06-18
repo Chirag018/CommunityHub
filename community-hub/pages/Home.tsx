@@ -75,18 +75,18 @@ export default function Homes() {
               }`}
             >
 
-              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-black">
+              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-xl">
+                <li className="text-white">
                   <Link href="/Search">
                     <p>Search</p>
                   </Link>
                 </li>
-                <li className="text-black">
+                <li className="text-white">
                   <Link href="/Search">
                     <p>Opt-in</p>
                   </Link>
                 </li>
-                 <li className="text-black">
+                 <li className="text-white">
                   {/* <Link href="">
                     <p>Connect Meta mask</p>
                   </Link> */}
@@ -97,12 +97,13 @@ export default function Homes() {
             </div>
           </div>
         </div>
-      </nav>
-      <div className="flex justify-center items-center mt-8">
-        <h1 className="text-2xl font-bold text-purple-500">
-          Create Responsive Navbar Menu in Next js with Tailwind CSS
+        
+      <div className="flex justify-center items-center mt-16">
+        <h1 className="text-2xl font-bold text-blue-500">
+          DISCOVER YOUR NEXT FAVORITE NFT
         </h1>
       </div>
+      </nav>
     </div>
   );
 }
